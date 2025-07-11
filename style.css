@@ -12,6 +12,13 @@ body {
   padding: 0;
 }
 
+.logo {
+  font-size: 34px;
+  font-weight: 900;
+  font-family: Inter;
+  color: #4e47ff;
+}
+
 /* ==========================
     HERO
 =============================== */
@@ -51,6 +58,11 @@ button {
   border-radius: 10px;
   font-size: 16px;
   font-weight: 500;
+}
+
+button:hover {
+  background-color: #000;
+  cursor: pointer;
 }
 
 /* ==========================
@@ -183,10 +195,6 @@ img {
   padding: 137px 0;
 }
 
-.testimonials__title {
-  padding-bottom: 50px;
-}
-
 .testimonials-card {
   background-color: white;
   padding: 24px;
@@ -218,8 +226,54 @@ img {
 .testimonials-card__group {
   display: flex;
   gap: 20px;
+  padding-top: 50px;
 }
 
 .testimonials__title {
   padding-bottom: 8px;
+}
+
+.ratings__icon {
+  height: 116px;
+  height: 20px;
+}
+
+/* ==========================
+    FOOTER
+============================= */
+
+.footer {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer__logo {
+  font-family: Inter;
+  font-size: 100px;
+  font-weight: 900;
+  color: #4e47ff;
+  letter-spacing: 2px;
+}
+
+.footer__description {
+  font-size: 16px;
+  color: #8987a1;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  line-height: 1.5;
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+}
+
+.footer__nav-item {
+  color: #8987a1;
+  text-decoration: none;
+  font-size: 16px;
 }
