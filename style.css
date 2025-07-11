@@ -8,7 +8,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
+
+/* ==========================
+    HERO
+=============================== */
 
 .hero {
   background-image: url(Images/Hero-bg.png);
@@ -24,11 +30,17 @@ body {
   align-self: center;
   margin: auto;
   text-align: center;
+  padding: 158px 0 0 0;
 }
 
 .hero-h1 {
   text-align: center;
+  padding: 37px;
 }
+
+/* ==========================
+    COMPONENTS
+=============================== */
 
 button {
   height: 48px;
@@ -41,23 +53,72 @@ button {
   font-weight: 500;
 }
 
+/* ==========================
+    STYLE
+=============================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+}
 h1 {
   font-size: 65px;
+  margin: auto;
 }
 
 h3 {
-  font-family: Raleway;
   font-size: 42px;
+  margin: 0;
 }
+
+h4 {
+  font-size: 38px;
+  font-family: Raleway;
+  margin: 0;
+}
+h5 {
+  font-size: 24px;
+  font-family: Raleway;
+  margin: 0;
+}
+
+p {
+  margin: auto;
+}
+
+main {
+  padding: 0 150px;
+  max-width: 1140px;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+}
+
+/* ==========================
+    SEE IT IN YOUR ACTION
+=============================== */
 
 .see-it-in-action {
   display: flex;
   justify-content: space-between;
-  padding: 116px 144px;
+  align-items: center;
+  align-content: center;
+  padding: 116px 0;
   gap: 100px;
-  /* max-width: 900px; */
-  /* align-items: self-end;
-  align-content: center; */
+}
+
+.p1 {
+  font-family: Raleway;
+  font-size: 24px;
+  padding: 20px 0;
+  color: #8d8e98;
 }
 
 img {
@@ -66,14 +127,99 @@ img {
   border-radius: 48px;
 }
 
-.p1 {
-  font-family: Raleway;
-  font-size: 24px;
-}
-
 .left-content {
   max-width: 517px;
 }
 
-section {
+/* ==========================
+    FACTS
+============================= */
+
+.facts {
+  padding: 116px 0;
+  text-align: center;
+  background-color: #e5e7ff;
+  padding: 50px 142px;
+  border-radius: 24px;
+  margin: 0;
+}
+
+.facts-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.facts-item {
+  padding: 0;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.facts-h1 {
+  font-family: Inter;
+  font-size: 80px;
+  color: #4e47ff;
+}
+
+.facts-p {
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 50%);
+}
+
+.facts-title {
+  padding-bottom: 24px;
+}
+
+/* ==========================
+    TESTIMONIALS
+============================= */
+
+.testimonials {
+  text-align: center;
+  padding: 137px 0;
+}
+
+.testimonials__title {
+  padding-bottom: 50px;
+}
+
+.testimonials-card {
+  background-color: white;
+  padding: 24px;
+  border-radius: 14px;
+  text-align: left;
+}
+
+.avater {
+  width: 40px;
+  height: 40px;
+  padding-right: 12px;
+}
+
+.user {
+  display: flex;
+  padding-top: 24px;
+}
+
+.body {
+  font-size: 16px;
+  font-family: inter;
+  font-weight: 600;
+}
+
+.ratings {
+  padding-bottom: 24px;
+}
+
+.testimonials-card__group {
+  display: flex;
+  gap: 20px;
+}
+
+.testimonials__title {
+  padding-bottom: 8px;
 }
