@@ -4,14 +4,30 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .hero {
   background-image: url(Images/Hero-bg.png);
   padding: 50px 150px 150px 150px;
+  align-items: center;
+  box-sizing: border-box;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
+.hero-content {
+  align-self: center;
+  margin: auto;
+  text-align: center;
+}
+
+.hero-h1 {
+  text-align: center;
 }
 
 button {
@@ -29,15 +45,35 @@ h1 {
   font-size: 65px;
 }
 
-.hero-content {
-  text-align: center;
-  /* max-width: 905px; */
-  box-sizing: border-box;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
+h3 {
+  font-family: Raleway;
+  font-size: 42px;
 }
 
 .see-it-in-action {
   display: flex;
+  justify-content: space-between;
+  padding: 116px 144px;
+  gap: 100px;
+  /* max-width: 900px; */
+  /* align-items: self-end;
+  align-content: center; */
+}
+
+img {
+  height: 328px;
+  width: 412px;
+  border-radius: 48px;
+}
+
+.p1 {
+  font-family: Raleway;
+  font-size: 24px;
+}
+
+.left-content {
+  max-width: 517px;
+}
+
+section {
 }
